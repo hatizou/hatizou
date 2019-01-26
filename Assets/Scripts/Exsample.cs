@@ -11,6 +11,9 @@ public class Exsample : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
-
+        speed--;
+        if (speed < 0) {
+            speed = 10;
+        }
     }
 }
